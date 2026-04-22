@@ -1,11 +1,11 @@
-// Hardcoded today's weather for Jamshoro, Sindh
+// Hardcoded today's weather for Jamshoro, Sindh (April 21, 2026)
 const todayWeather = {
   city: "Jamshoro",
-  temp: 29,
-  feels_like: 32,
+  temp: 29,          // Current temperature in °C
+  feels_like: 32,    // Feels like temperature in °C
   condition: "Sunny",
-  humidity: 49,
-  wind: 21
+  humidity: 49,      // %
+  wind: 21           // km/h
 };
 
 document.getElementById("weatherInfo").innerHTML = `
